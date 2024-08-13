@@ -172,13 +172,20 @@ h6 { font-size: 16px;}
 #profile_pic{
 	display: block;
 	margin:0 auto;
-
-	height: 200px;
-	width: 200px;
+	height: 300px;
+	width: 300px;
 	object-fit: cover;
 	border:2px solid var(--borderColor);
 }
 
+#profile_pic:hover
+{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
 
 #theme-options-wrapper{
 	display: flex;
